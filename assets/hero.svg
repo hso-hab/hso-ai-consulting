@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 660" fill="none">
+<defs><linearGradient id="ring" x1="100" y1="120" x2="540" y2="490" gradientUnits="userSpaceOnUse"><stop stop-color="#f9fdff"/><stop offset=".3" stop-color="#b9d2e2"/><stop offset=".55" stop-color="#f9fdff"/><stop offset=".8" stop-color="#7195b3"/><stop offset="1" stop-color="#d4e5ef"/></linearGradient><radialGradient id="core"><stop stop-color="#fff"/><stop offset=".65" stop-color="#f3faff"/><stop offset="1" stop-color="#a8cce4"/></radialGradient><radialGradient id="bg"><stop stop-color="#dceaf4" stop-opacity=".9"/><stop offset="1" stop-color="#edf3f7" stop-opacity="0"/></radialGradient><filter id="shadow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="18"/></filter><filter id="smallShadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="4" dy="15" stdDeviation="12" flood-color="#264c6a" flood-opacity=".13"/></filter></defs>
+<circle cx="330" cy="330" r="325" fill="url(#bg)"/>
+<g stroke="#799cb7" opacity=".18"><circle cx="330" cy="330" r="280"/><circle cx="330" cy="330" r="238" stroke-dasharray="2 9"/><path d="M20 330h620M330 20v620"/></g>
+<ellipse cx="342" cy="516" rx="156" ry="24" fill="#234c70" opacity=".14" filter="url(#shadow)"/>
+<g class="orbit-ring orbit-ring-outer" transform="rotate(-31 330 325)" filter="url(#smallShadow)"><ellipse cx="330" cy="345" rx="225" ry="123" stroke="#8ba6bb" stroke-width="27"/><ellipse cx="330" cy="330" rx="225" ry="123" stroke="url(#ring)" stroke-width="30"/><ellipse cx="330" cy="321" rx="225" ry="123" stroke="#fff" stroke-opacity=".8" stroke-width="1"/></g>
+<g class="orbit-ring orbit-ring-inner" transform="rotate(43 330 325)" filter="url(#smallShadow)"><ellipse cx="330" cy="332" rx="195" ry="118" stroke="url(#ring)" stroke-width="24"/><ellipse cx="330" cy="325" rx="195" ry="118" stroke="#fff" stroke-opacity=".9"/></g>
+<circle cx="330" cy="321" r="91" fill="url(#core)" filter="url(#smallShadow)" stroke="#fff" stroke-width="2"/>
+<path d="m292 341 19-41 19 41m-30-12h22m30-29v41" stroke="#244e73" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="#3b78a7"><circle cx="112" cy="191" r="5"/><circle cx="552" cy="423" r="5"/><circle cx="406" cy="61" r="3"/></g>
+<g stroke="#7193ab" stroke-width="1"><path d="M112 191h-39v-44M552 423h40v42"/><circle cx="330" cy="321" r="113" stroke-dasharray="1 8" opacity=".4"/></g>
+<g fill="#58758b" font-family="Arial,sans-serif" font-size="10" letter-spacing="2"><text x="24" y="135">BUSINESS</text><text x="521" y="485">POSSIBILITY</text></g>
+</svg>

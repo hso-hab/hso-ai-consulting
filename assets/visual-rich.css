@@ -1,0 +1,95 @@
+/* Editorial imagery + warm focal accents. Existing layout and motion remain the base. */
+.consultation-examples{background:#f8f5f0}
+.examples-heading{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:end;margin-bottom:42px}
+.consultation-examples .eyebrow{color:var(--accent)}
+.examples-intro{font-size:14px;color:var(--muted)}
+.examples-intro .examples-note{margin-top:18px;font-size:12px}
+.examples-list{list-style:none;border-top:1px solid #d7c6b8}
+.example-row{display:grid;grid-template-columns:1fr 1fr;gap:64px;padding:32px 0;border-bottom:1px solid #d7c6b8;align-items:start}
+.example-question{display:flex;gap:24px;min-width:0}
+.example-number{font-family:var(--serif);font-size:30px;line-height:1.3;color:var(--accent);flex-shrink:0}
+.example-tag{font-size:11px;letter-spacing:.07em;color:var(--accent);margin-bottom:8px;font-weight:600}
+.example-question h3{font-size:20px;line-height:1.7}
+.example-issue{font-size:13px;color:var(--muted);margin-top:12px}
+.example-support{border-left:2px solid #cfa98d;padding:4px 0 4px 24px;font-size:14px;line-height:2}
+.example-label{font-size:11px;font-weight:600;color:var(--accent);margin-bottom:9px;letter-spacing:.05em}
+.examples-footer{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-top:32px}
+.examples-footer>p{font-size:13px;color:var(--muted)}
+.examples-footer .button{background:var(--accent);border-color:var(--accent)}
+.examples-footer .button:hover{background:var(--accent-hover)}
+@media(max-width:800px){.examples-heading,.example-row{gap:32px}.example-question{gap:15px}.example-question h3{font-size:18px}.example-support{font-size:13px;padding-left:18px}}
+@media(max-width:600px){.examples-heading{grid-template-columns:1fr;gap:20px;margin-bottom:28px}.examples-intro{font-size:13px}.examples-intro .examples-note{font-size:11px;margin-top:12px}.example-row{grid-template-columns:1fr;gap:20px;padding-block:27px}.example-number{font-size:26px;width:30px}.example-question{gap:13px}.example-question h3{font-size:18px}.example-support{margin-left:43px;padding-left:16px}.examples-footer{flex-direction:column;align-items:stretch;gap:20px}.examples-footer .button{font-size:12px;padding-inline:18px}}
+:root{--accent:#a64d24;--accent-hover:#813917;--warm:#f8f5f0}
+.hero{background:linear-gradient(90deg,rgba(250,252,253,.97) 0%,rgba(250,252,253,.86) 35%,rgba(245,249,252,.25) 68%,rgba(240,245,249,.08) 100%),url('/hso-ai-consulting/assets/brand-architecture.jpg') center 58%/cover no-repeat}
+.hero:before{background:linear-gradient(120deg,transparent 30%,#ffffff40 60%,transparent);opacity:.5}
+.hero .hero-inner{min-height:685px}
+.hero-copy{padding-block:65px;position:relative}
+.hero h1>span{color:#244e6e}
+.hero-lead{font-size:20px;font-weight:500}
+.hero .eyebrow{color:#315b79}
+.hero-art{margin-right:-20px;margin-left:0}
+.hero-art .hero-orbit{max-width:555px;margin-inline:auto}
+.hero-art .art-caption{bottom:18px;color:#1d4563;letter-spacing:.14em;font-size:9px;left:15%;right:15%;padding:8px 10px;background:#f8fbfcdc;border:1px solid #fff9;backdrop-filter:blur(9px)}
+.hero-bottom{background:rgba(249,252,254,.76);border-color:#ffffffa6;backdrop-filter:blur(10px);padding-inline:24px;margin-bottom:22px}
+.hero-bottom p{color:#29475e}
+.hero-actions .button,.main-nav .nav-contact,.contact-band .button-white{background:var(--accent);border-color:var(--accent);color:#fff}
+.hero-actions .button:hover,.main-nav .nav-contact:hover,.contact-band .button-white:hover{background:var(--accent-hover);border-color:var(--accent-hover)}
+.hero-actions .button{box-shadow:0 8px 22px #934d2524}
+.challenge-list li span{color:var(--accent)}
+.challenge-list li{padding-left:10px}
+.challenge-list li:nth-child(2){background:var(--warm)}
+.services-spotlight{background:#102c43;color:#fff;position:relative;isolation:isolate;overflow:hidden}
+.services-spotlight:before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#0b243bf0,#133c58d4),url('/hso-ai-consulting/assets/brand-architecture.jpg') right 42%/auto 170% no-repeat;z-index:-1}
+.services-spotlight .eyebrow{color:#edc3a1}
+.services-spotlight .section-heading h2{font-size:36px}
+.services-spotlight .section-heading>p:not(.eyebrow){color:#d3e1eb}
+.services-spotlight .text-link{color:#fff;border-color:#d4a480}
+.services-spotlight .service-row{border-color:#ffffff35;padding:31px 12px 31px 0}
+.services-spotlight .service-row:hover{padding-left:12px;background:#ffffff0b}
+.services-spotlight .service-number{color:#edc3a1;font-size:29px}
+.services-spotlight .small-label{color:#b6ccdc}
+.services-spotlight .service-row h3{font-size:21px}
+.services-spotlight .service-row p{color:#d3e1eb;font-size:13px}
+.services-spotlight .circle-arrow{border-color:#d0dfeb66;background:#ffffff0b;color:#fff}
+.service-support-note{font-size:11px;line-height:2;color:#b9cfdf;margin-top:31px;padding-top:24px;border-top:1px solid #ffffff25;max-width:310px}
+.approach-feature-top{display:grid;grid-template-columns:1.08fr 1fr;gap:72px;align-items:center}
+.consultation-visual{position:relative;margin:0;overflow:hidden;aspect-ratio:1.36;background:#eee8df}
+.consultation-visual img{width:100%;height:100%;object-fit:cover;object-position:44% center;transition:transform 1s}
+.consultation-visual figcaption{position:absolute;bottom:8px;right:8px;color:#fff;background:#132534b8;font-size:9px;line-height:1.8;padding:3px 7px}
+.approach-feature .heading-line{display:flex;flex-direction:column;align-items:flex-start;gap:20px}
+.approach-feature .heading-line .text-link{order:2}
+.approach-intro{font-size:13px;line-height:2.1;color:var(--muted)}
+.approach-feature .approach-grid{margin-top:48px}
+.approach-feature .approach-no{color:var(--accent);font-size:31px}
+.approach-feature .approach-grid article{border-top:2px solid #cfa98d}
+.soft-bg{background:var(--warm)}
+.steps li{border-top-color:#d7c6b8}
+.steps .step-no{color:var(--accent)}
+.company-teaser{gap:80px}
+.company-graphic.visual-company{background:linear-gradient(135deg,#102e46cc,#153a4f77),url('/hso-ai-consulting/assets/brand-architecture.jpg') 5% 55%/auto 140% no-repeat;color:#fff;aspect-ratio:1.25}
+.visual-company>span{color:#eef5fa;text-shadow:0 1px 4px #112e43}
+.visual-company strong{color:#fff;text-shadow:0 4px 25px #071d3440}
+.visual-company strong span{color:#ebc5a3}
+.visual-company .location-line{background:#eed1b8}
+.company-graphic.visual-company:before,.company-graphic.visual-company:after{display:none}
+.contact-band{background:linear-gradient(90deg,#0b243cf5 0%,#112e46e6 42%,#183d58a6 100%),url('/hso-ai-consulting/assets/brand-architecture.jpg') center 60%/cover;padding-block:95px}
+.contact-band:before,.contact-band:after{display:none}
+.contact-band .eyebrow{color:#ecc7a8}
+.contact-band h2{font-size:36px}
+.contact-band .button{min-width:300px;box-shadow:0 12px 28px #06152335}
+.contact-band p:not(.eyebrow){color:#e2eaf0}
+.faq-list .q-label{color:var(--accent)}
+.faq-list details[open]{background:#f8f5f0}
+.visual-page-cover{background:linear-gradient(90deg,#f9fbfef7,#f8fafbd1 55%,#f1f5f66b),url('/hso-ai-consulting/assets/brand-architecture.jpg') center 58%/cover;margin-top:24px;margin-bottom:38px}
+.visual-page-cover .page-intro{padding-block:62px}
+.service-detail .large-number{color:#b7825b}
+.service-detail .goal{background:var(--warm);border-color:var(--accent)}
+.service-detail .goal h3{color:#95431e}
+.company-side{border-top:3px solid var(--accent)}
+.motion-progress{background:var(--accent)}
+.motion-control:before{background:var(--accent)}
+@media(hover:hover) and (pointer:fine){body[data-rich-motion=on] .consultation-visual:hover img{transform:scale(1.035)}}
+@media(max-width:1100px){.hero .hero-inner{min-height:620px}.hero-art .hero-orbit{max-width:100%}.hero-art{margin-right:-20px}.approach-feature-top{gap:45px}.services-spotlight .service-row h3{font-size:18px}.services-spotlight .section-heading h2{font-size:31px}}
+@media(max-width:800px){.hero{background-position:60% center}.hero .hero-inner{min-height:570px}.hero-art{margin-right:-32px;margin-left:-15px}.hero-art .art-caption{font-size:7px;left:11%;right:8%;bottom:0;padding:5px}.hero-lead{font-size:17px}.hero-bottom{padding-inline:16px}.approach-feature-top{gap:30px}.consultation-visual{aspect-ratio:.95}.services-spotlight .service-row h3{font-size:16px}.services-spotlight .service-row p{font-size:12px}.services-spotlight .section-heading h2{font-size:28px}.company-teaser{gap:35px}.contact-band{padding-block:72px}.contact-band h2{font-size:28px}.contact-band .button{min-width:245px}}
+@media(max-width:600px){.hero{background:linear-gradient(180deg,#fafcfef5 0%,#f9fcfef2 27%,#f7fafc7d 57%,#f2f7fbbd 100%),url('/hso-ai-consulting/assets/brand-architecture.jpg') 70% center/cover}.hero .hero-inner{min-height:0}.hero-copy{padding-top:43px;padding-bottom:0}.hero-lead{font-size:16px}.hero-art{margin:-4px auto 0;overflow:hidden;height:300px;max-width:380px}.hero-art .hero-orbit{width:340px;max-width:none;margin:0;top:-20px}.hero-art .art-caption{left:14%;right:14%;font-size:7px;bottom:8px;padding:4px 6px}.hero-bottom{padding-inline:13px;margin-bottom:17px}.hero-bottom p{font-size:9px}.hero-actions .button{padding:15px 17px}.services-spotlight .section-heading h2{font-size:30px}.services-spotlight .service-row{padding:25px 2px 25px 0}.services-spotlight .service-row h3{font-size:18px}.services-spotlight .service-number{font-size:25px}.service-support-note{margin-top:18px;padding-top:16px;max-width:none;font-size:10px}.services-layout{gap:27px}.approach-feature-top{grid-template-columns:1fr;gap:30px}.consultation-visual{aspect-ratio:1.4}.consultation-visual figcaption{font-size:8px}.approach-feature .heading-line{gap:15px}.approach-feature .approach-grid{margin-top:32px}.approach-feature .approach-no{font-size:27px}.company-graphic.visual-company{aspect-ratio:1.5}.company-teaser{gap:30px}.contact-band{padding-block:59px}.contact-band h2{font-size:28px}.contact-band .button{min-width:0}.visual-page-cover{margin-top:20px;margin-bottom:27px;background-position:68% center}.visual-page-cover .page-intro{padding-block:42px}}
+@media(prefers-reduced-motion:reduce){.consultation-visual img{transition:none!important;transform:none!important}}
