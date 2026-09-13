@@ -1,4 +1,10 @@
 /* Editorial imagery + warm focal accents. Existing layout and motion remain the base. */
+.contact-delivery-note{font-size:13px;margin-bottom:28px;color:var(--muted)}
+.confirmation-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:24px}
+.confirmation-actions #edit-form{background:white;color:var(--ink);border-color:var(--line)}
+.confirmation-actions button:disabled{opacity:.6;cursor:wait;transform:none}
+#send-status{font-size:13px;margin-top:18px;color:var(--muted)}
+@media(max-width:600px){.confirmation-actions{flex-direction:column}.confirmation-actions .button{width:100%;justify-content:space-between}}
 .consultation-examples{background:#f8f5f0}
 .examples-heading{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:end;margin-bottom:42px}
 .consultation-examples .eyebrow{color:var(--accent)}
